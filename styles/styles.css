@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    color: black;
+    background-color: rgb(131, 138, 160);
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {color: blue;
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited {
+    color: purple;
+}
+
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold   {font-weight: bold;}
+.justify {text-align: justify;}
+
+.homebg {
+    background-image: url('../images/Spongebob_Sky.jpeg');
+    background-position: top;
+}
+/* These three box styles wouldn't normally be used together */
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    /* border: 1px solid red; */
+}
+
+.box2 {
+    padding: 5px;
+}
+
+.box3 {
+    margin: 50px;
+}
